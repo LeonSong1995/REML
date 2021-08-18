@@ -1,5 +1,4 @@
 # REML
-The REML function  in R
 
 ## Description
 The REML function  in R
