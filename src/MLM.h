@@ -27,7 +27,7 @@
 #include <RcppEigen.h>
 #include <iostream>
 #include <math.h>
-// #include <omp.h>
+#include <omp.h>
 
 
 
