@@ -7,7 +7,7 @@ The REML function  in R
 ## Installation
 ```R
 install.packages("devtools")
-devtools::install_github("REML/MCTD", build_vignettes=F)
+devtools::install_github("LeonSong1995/REML", build_vignettes=F)
 ```
 
 
