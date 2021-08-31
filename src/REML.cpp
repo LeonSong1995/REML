@@ -340,7 +340,7 @@ VectorXd reml_iteration(Eigen::VectorXd start, eigenMatrix &X,eigenVector &y, ve
 		dlogL = lgL - prev_lgL;
 
 		//converge
-		if ((varcmp - prev_varcmp).squaredNorm() / varcmp.squaredNorm() < 1e-8 && (fabs(dlogL) < 1e-4 || (fabs(dlogL) < 1e-2 && dlogL < 0))) {
+		if ((varcmp - prev_varcmp).squaredNorm() / varcmp.squaredNorm() < 1e-6 && (fabs(dlogL) < 1e-3 || (fabs(dlogL) < 1e-2 && dlogL < 0))) {
 			prev_varcmp = varcmp;
 			calcu_Vi(Vi, prev_varcmp, logdet,n, rindx);
 			flag_converge = true;
