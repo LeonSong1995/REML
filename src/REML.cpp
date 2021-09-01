@@ -101,10 +101,11 @@ std::vector<Eigen::MatrixXd>  reml(Eigen::VectorXd start, Eigen::MatrixXd &X, Ei
 	res.row(1) = flattened_Xita;
 
 	std::vector<Eigen::MatrixXd> r;
-	r.resize(3);
+	r.resize(4);
 	r[0] = fix;
 	r[1] = res;
 	r[2] = varcmp;
+	r[3] = Vi;
 
 	return(r);
 
