@@ -38,7 +38,6 @@ using namespace Rcpp;
 typedef MatrixXd eigenMatrix;
 typedef VectorXd eigenVector;
 
-//REML paramater
 vector<eigenMatrix> _A;
 eigenMatrix Z; 
 eigenMatrix X;
