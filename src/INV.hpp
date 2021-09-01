@@ -2,6 +2,7 @@
 #include <RcppEigen.h>
 #include <iostream>
 
+//inverse 
 enum INVmethod {
 	INV_LLT = 1,
 	INV_LU = 2,
